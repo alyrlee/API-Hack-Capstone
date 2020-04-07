@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    color: wheat;
+    color-adjust: exact;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background: url(https://images.unsplash.com/photo-1462206092226-f46025ffe607?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    margin: 0 0 5px 0;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.submitButton {
+    min-width: 25%;
+    cursor: pointer;
+    color: white;
+    border: .2em solid;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    background: transparent;
+}
+
+.searchForm {
+    text-align: center;
+}
+
+.location,
+.submitButton {
+    text-align: center;
+    min-height: 3.5em;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.location {
+    min-width: 85%;
+    margin-bottom: 1%;
+}
+
+.header {
+    background-repeat: repeat;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index:-1;
+}
+
+.headerContent h1, h3, p {
+    color: white;
+    opacity: 1.0;
+}
+
+.headerContent h1 {
+    font-size: 6em;
+    font-weight: lighter;
+    padding-top: 15%;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.submitButton {
+    min-width: 25%;
+    cursor: pointer;
+    color: white;
+    border: .2em solid;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    background: transparent;
+}
+
+.submitButton:hover,
+.submitButton:active {
+    background-color: white;
+    color: grey;
+    border-color: white;
+}
+
+.description {
+    font-weight: bold;
+    margin-bottom: 3%;
+    padding: 2%;
+}
+
+#business-list {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    color: white;
+    /* border: 1px solid black; */
+}
+
+td {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    font-size: large; 
+}
+
+table, td {
+    border: 1px solid double;
+    /* display: inline; */
+  }
+
+
+footer {
+    background-color: #70A0B6;
+    grid-column: span 3;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.4em;
+    color: white;
+    filter: grayscale(1);
+    text-shadow: #111 0px 0px 10px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;   
+}
+
+
+.legend {
+    min-width: 100%;
+}
+
+
+.header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: -1;
+}
+
+.headerContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shadowBox {
+    height: 100%;
+    background-color: rgba(0, 0, 0, .2);
+    z-index: 1;
+    width: 100%;
+}
+
+.errorText {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    padding: .1em;
+}
+
+.portfolioLink {
+    color: white;
+}
+
+.portfolioLink:hover,
+.portfolioLink:active {
+    border: .1em solid white;
+}
+
+
+.container {
+    height: 100%;
+    width: 100%;
+    /* display: table; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* left: 0; */
+    top: 0
+}
+
+ul {
+    text-align: center;
+    display: contents;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 271px;
+    width: 200px;
+    overflow-y: scroll;
+}
+
+li {
+    padding: 10px;
+    text-overflow: ellipsis;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}

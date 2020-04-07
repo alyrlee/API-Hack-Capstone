@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Business Connect</title>
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <div id=" i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;">
+        <div data-reactroot=" " class="resolved "></div>
+    </div>
+    <header id="startPage">
+        <div class="shadowBox"></div>
+        <div class="headerContent">
+            <h1>Business Connect</h1>
+            <h2> Connect with local businesses based on your current location</h2>
+            <form action="#" class="searchForm" id="js-search-term">
+                <label for="location" class="formLabel"> </label>
+
+                <p class="errorMessage"></p>
+
+                <input type="text" name="location" placeholder="Where are you located?" id="location" class="location" aria-label="input your location" autofocus=" " required=" ">
+                <button type="submit" aria-label="search" class="submitButton" id="submitButton">Let's Connect!</button>
+            </form>
+            <p class="description">Business Connet provides a rolodex of local locations to find like-minded spaces to collaborate with others <br> on the next project, event, or simply a safe space to work creatively.</p>
+        </div>
+    </header>
+    <main class="container" id="container" aria-live="assertive">
+        <table>
+        <div class="business" id="business-list">
+        </div>
+       </table> 
+    </main>
+    <div class="container" id="map"></div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js " async defer></script>
+    <script src="index.js "></script>
+    <footer id="contentInfo ">
+        <p>Created by Ashley Lee 2020 | <a href='https://alyrlee.github.io/2020_portfolio/home.html' class="portfolioLink ">Portfolio</a></p>
+    </footer>
+</body>
+
+</html>
